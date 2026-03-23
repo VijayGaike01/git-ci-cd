@@ -15,5 +15,5 @@ def analyze_logs(file_path):
 
 
 if __name__ == "__main__":
-    analyze_logs("data/sample.log")
+    analyze_logs("../data/sample.log")
     
