@@ -10,5 +10,7 @@ def analyze_logs(file_path):
     print("Log Summary:")
     print(f"INFO count: {info_count}")
     print(f"ERROR count: {error_count}")
+
+
 if __name__ == "__main__":
     analyze_logs("../data/sample.log")
